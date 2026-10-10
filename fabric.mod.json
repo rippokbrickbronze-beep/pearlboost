@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "pearlboost",
+  "version": "${version}",
+  "name": "PearlBoost",
+  "description": "Key: throw a pearl at your crosshair, then a wind charge at it.",
+  "license": "All Rights Reserved",
+  "environment": "client",
+  "entrypoints": { "client": ["pearlboost.PearlBoostClient"] },
+  "depends": { "fabricloader": ">=0.19.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
